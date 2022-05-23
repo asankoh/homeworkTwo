@@ -1,0 +1,28 @@
+.quote{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .content{
+    width: 789px;
+    color: #FFD140;
+    font-size: 15px;
+    font-family: PTSerif-BI;
+
+    .author{
+        color: #EE4367;
+        margin-bottom: 0;
+        font-family: PTSerif;
+    }
+    .title{
+        font-size: 10px;
+        color: #A8A8A8;
+        font-family: PTSerif;
+    
+
+
+    }
+    }
+}
