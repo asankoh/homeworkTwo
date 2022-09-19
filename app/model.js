@@ -41,14 +41,16 @@ var productsContent = `<div class="products">
 
 
 var aboutContent = `<div class="about">
-  
+  <div class = "aboutInfo">
   <img src="img/womanProfile.jpg" alt="">
   <p class = "owner" >Owner: Olivia Smithers</p>
  
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vitae suscipit aspernatur laborum doloribus inventore odit ducimus aliquid ipsam commodi accusantium incidunt nulla aperiam dolorum facere tempora nam saepe. Saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, nobis laborum ab quis veritatis mollitia error nisi voluptatem at impedit reprehenderit perferendis? Aliquam quae adipisci ut blanditiis, a dolor voluptate.</p>
+  </div>
   </div>`
 
 var contactContent = `<div class="contact">
+<div class ="contactInfo">
 <h1>Contact Us!</h1>
 <div class="input-wrapper">
   <input class="text-field-one" type="text" placeholder="First Name">
@@ -56,6 +58,7 @@ var contactContent = `<div class="contact">
 </div>
 <input class="messageBox" type="text" placeholder="Message">
 
+</div>
 </div>
 </div>`
 

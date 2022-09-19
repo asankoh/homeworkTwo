@@ -6,7 +6,6 @@ function initListeners() {
     $("nav a").click((e) => {
         e.preventDefault();
         let btnID = e.currentTarget.id;
-
         MODEL.setCurrentPageContent(btnID);
     });
 }

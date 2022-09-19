@@ -139,24 +139,24 @@ footer .copyright {
   height: 300px;
 }
 
-.about {
+.about .aboutInfo {
   height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about img {
+.about .aboutInfo img {
   width: 400px;
   height: 400px;
 }
-.about .owner {
+.about .aboutInfo .owner {
   position: relative;
   top: 240px;
   right: 450px;
   font-size: 16px;
   font-weight: bold;
 }
-.about p {
+.about .aboutInfo p {
   position: relative;
   right: 400px;
   width: 500px;
@@ -165,27 +165,27 @@ footer .copyright {
   text-align: center;
 }
 
-.contact {
+.contact .contactInfo {
   height: 500px;
 }
-.contact h1 {
+.contact .contactInfo h1 {
   text-align: center;
   padding: 20px;
   font-family: PTReg;
 }
-.contact .input-wrapper {
+.contact .contactInfo .input-wrapper {
   display: flex;
   margin: 50px auto;
   max-width: 70%;
 }
-.contact .input-wrapper .text-field-one {
+.contact .contactInfo .input-wrapper .text-field-one {
   margin-right: 20px;
   width: 100%;
   padding: 10px;
   outline: none;
   border: solid 2px #000;
 }
-.contact .messageBox {
+.contact .contactInfo .messageBox {
   min-width: 1000px;
   height: 120px;
   position: relative;
