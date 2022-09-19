@@ -39,14 +39,14 @@ var productsContent = `<div class="products">
 </div>
 </div>`
 
-var aboutContent = 
-  `<div class="about">
+
+var aboutContent = `<div class="about">
   
   <img src="img/womanProfile.jpg" alt="">
   <p class = "owner" >Owner: Olivia Smithers</p>
  
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, vitae suscipit aspernatur laborum doloribus inventore odit ducimus aliquid ipsam commodi accusantium incidunt nulla aperiam dolorum facere tempora nam saepe. Saepe! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, nobis laborum ab quis veritatis mollitia error nisi voluptatem at impedit reprehenderit perferendis? Aliquam quae adipisci ut blanditiis, a dolor voluptate.</p>
-</div>`
+  </div>`
 
 var contactContent = `<div class="contact">
 <h1>Contact Us!</h1>
@@ -63,6 +63,7 @@ var contactContent = `<div class="contact">
 function setCurrentPageContent(pageID){
     // pageID refers to the id type of the nav a
     let contentName = pageID + "Content";
+    console.log(pageID)
     $("#app").html(eval(contentName));
     // eval takes the string and converts it into a variable. Now allowing homeContent to be displayed on the web browser
 }

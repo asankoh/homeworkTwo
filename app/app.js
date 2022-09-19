@@ -13,6 +13,6 @@ function initListeners() {
 
 
 $(document).ready(function () {
-    // MODEL.setCurrentPageContent("home")
+    MODEL.setCurrentPageContent("home")
     initListeners();
 }) ;
