@@ -13,9 +13,6 @@ var homeContent = `<div class="home">
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint id eum sed nemo assumenda ex fugiat, dignissimos natus dolorum doloremque! Libero repudiandae dolorem ad deserunt placeat fugiat, voluptate unde voluptatem.</p>
 </div>
 </div>
-<footer>
-      <p class="copyright">@Copyright &copy; 2022</p>
-      </footer>
 </div>`
 
 var productsContent = `<div class="products">
@@ -67,7 +64,7 @@ function setCurrentPageContent(pageID){
     // pageID refers to the id type of the nav a
     let contentName = pageID + "Content";
     console.log(pageID)
-    $("#app").html(eval(aboutContent));
+    $("#app").html(eval(contentName));
     // eval takes the string and converts it into a variable. Now allowing homeContent to be displayed on the web browser
 }
 
