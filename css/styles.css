@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillsBold;
+  src: url(../css/fonts/GillSansBold.otf);
+}
+@font-face {
+  font-family: PTBold;
+  src: url(../css/fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTReg;
+  src: url(../css/fonts/PTSerif-Regular.ttf);
+}
+#cover {
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(210, 180, 140, 0.3), rgba(210, 180, 140, 0.3)), url(../img/heroImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#cover nav {
+  height: 50px;
+  min-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+#cover nav a {
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  position: relative;
+  padding: 0 10px;
+}
+#cover nav a:hover {
+  color: black;
+}
+#cover nav a:after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+#cover nav a:hover:after {
+  width: 100%;
+}
+#cover .navContent {
+  text-align: start;
+  letter-spacing: 2px;
+}
+#cover .navContent h1 {
+  font-size: 64px;
+  margin-top: 100px;
+  margin-left: 145px;
+  font-family: PTReg;
+}
+#cover .navContent p {
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #808080;
+}
+#cover .navContent .btnNav {
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #4fc3f7;
+  margin: 30px 0 0 150px;
+}
+
+.home {
+  height: 500px;
+  margin: 0 auto;
+}
+.home .minContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+}
+.home .minContent .boxOne, .home .minContent .boxTwo, .home .minContent .boxThree {
+  width: 450px;
+  height: 300px;
+  background-color: rgba(210, 180, 140, 0.2);
+}
+.home .minContent .boxOne, .home .minContent .boxTwo, .home .minContent .boxThree, .home .minContent p, .home .minContent h2 {
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+footer {
+  height: 150px;
+  background-color: green;
+}
+
+.products {
+  height: 1000px;
+}
+.products .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+}
+.products .flex-container .boxFour, .products .flex-container .boxFive, .products .flex-container .boxSix, .products .flex-container img {
+  width: 300px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=styles.css.map */
