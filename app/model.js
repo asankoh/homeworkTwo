@@ -67,7 +67,7 @@ function setCurrentPageContent(pageID){
     // pageID refers to the id type of the nav a
     let contentName = pageID + "Content";
     console.log(pageID)
-    $("#app").html(eval(contentName));
+    $("#app").html(eval(aboutContent));
     // eval takes the string and converts it into a variable. Now allowing homeContent to be displayed on the web browser
 }
 
