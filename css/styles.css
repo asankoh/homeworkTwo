@@ -112,12 +112,20 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 footer {
-  height: 150px;
-  background-color: green;
+  height: 70px;
+  background-color: black;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-align: center;
+  color: white;
 }
 
 .products {
-  height: 800px;
+  height: 600px;
 }
 .products .flex-container {
   display: flex;
@@ -129,6 +137,60 @@ footer {
 .products .flex-container .boxFour, .products .flex-container .boxFive, .products .flex-container .boxSix, .products .flex-container img {
   width: 300px;
   height: 300px;
+}
+
+.about {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about img {
+  width: 400px;
+  height: 400px;
+}
+.about .owner {
+  position: relative;
+  top: 240px;
+  right: 450px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.about p {
+  position: relative;
+  right: 400px;
+  width: 500px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact {
+  height: 500px;
+}
+.contact h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: PTReg;
+}
+.contact .input-wrapper {
+  display: flex;
+  margin: 50px auto;
+  max-width: 70%;
+}
+.contact .input-wrapper .text-field-one {
+  margin-right: 20px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: solid 2px #000;
+}
+.contact .messageBox {
+  min-width: 1000px;
+  height: 120px;
+  position: relative;
+  right: -250px;
+  border: solid 2px #000;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,14 @@
+
 footer{
-    height: 150px;
-    background-color: green;
+    height: 70px;
+    background-color: black;
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+    }
 }

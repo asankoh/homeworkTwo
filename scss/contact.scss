@@ -1,0 +1,35 @@
+.contact{
+    height: 500px;
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: PTReg;
+
+}
+    .input-wrapper{
+        display: flex;
+        margin: 50px auto;
+        max-width: 70%;
+    
+    
+    
+        .text-field-one{
+            margin-right: 20px;
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border: solid 2px #000;
+    
+    
+        }
+}
+
+.messageBox{
+    min-width: 1000px;
+    height: 120px;
+    position: relative;
+    right: -250px;
+    border: solid 2px #000;
+
+}
+}
